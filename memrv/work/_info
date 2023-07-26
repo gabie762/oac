@@ -1,0 +1,227 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.1
+Emem_ram
+Z0 w1676571296
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Gabi\Documents\faculdade\oac\memrv
+Z5 8C:/Users/Gabi/Documents/faculdade/oac/memrv/ram.vhd
+Z6 FC:/Users/Gabi/Documents/faculdade/oac/memrv/ram.vhd
+l0
+L7
+V<ii?QWN_`RoMn[5U:2ZM40
+Z7 OV;C;10.1d;51
+33
+Z8 !s108 1676571304.464000
+Z9 !s90 -reportprogress|300|-work|work|-2008|-explicit|C:/Users/Gabi/Documents/faculdade/oac/memrv/ram.vhd|
+Z10 !s107 C:/Users/Gabi/Documents/faculdade/oac/memrv/ram.vhd|
+Z11 o-work work -2008 -explicit -O0
+Z12 tExplicit 1
+!s100 O6l?L`Y5ICbiN^W0ogEDe0
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 7 mem_ram 0 22 <ii?QWN_`RoMn[5U:2ZM40
+l46
+L17
+Vf9Y=Z=kV:j29PD9UbePFU3
+R7
+33
+R8
+R9
+R10
+R11
+R12
+!s100 NId4KT09j5M[6:VcCD3Li2
+!i10b 1
+Emem_ram_tb
+Z13 w1676595007
+R1
+R2
+R3
+R4
+Z14 8C:/Users/Gabi/Documents/faculdade/oac/memrv/ram_tb.vhd
+Z15 FC:/Users/Gabi/Documents/faculdade/oac/memrv/ram_tb.vhd
+l0
+L7
+Vj5h1o?OEb]BCzD9j`=bR50
+!s100 `?5Y4LP_@;zj`9@>oeKj31
+R7
+33
+!i10b 1
+Z16 !s108 1676595022.159000
+Z17 !s90 -reportprogress|300|-work|work|-2008|-explicit|C:/Users/Gabi/Documents/faculdade/oac/memrv/ram_tb.vhd|
+Z18 !s107 C:/Users/Gabi/Documents/faculdade/oac/memrv/ram_tb.vhd|
+R11
+R12
+Abehavioral
+R1
+R2
+R3
+Z19 DEx4 work 10 mem_ram_tb 0 22 j5h1o?OEb]BCzD9j`=bR50
+l54
+L10
+VVNz`^8fb^g4zZaQ_iXNl22
+!s100 HiIKKjnQWHmZk3R=Eia=20
+R7
+33
+!i10b 1
+R16
+R17
+R18
+R11
+R12
+Emem_rom
+Z20 w1676484186
+R1
+R2
+R3
+R4
+Z21 8C:/Users/Gabi/Documents/faculdade/oac/memrv/rom.vhd
+Z22 FC:/Users/Gabi/Documents/faculdade/oac/memrv/rom.vhd
+l0
+L7
+VZ48]DA8nXCCkf8HhoK5H@1
+R7
+33
+Z23 !s108 1676570777.221000
+Z24 !s90 -reportprogress|300|-work|work|-2008|-explicit|C:/Users/Gabi/Documents/faculdade/oac/memrv/rom.vhd|
+Z25 !s107 C:/Users/Gabi/Documents/faculdade/oac/memrv/rom.vhd|
+R11
+R12
+!s100 M@V8V?=iNeDN3=RJegazi0
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 7 mem_rom 0 22 Z48]DA8nXCCkf8HhoK5H@1
+l34
+L16
+VDWLM6R^1;;CX7YT:ZjW^M3
+R7
+33
+R23
+R24
+R25
+R11
+R12
+!s100 K1fHkM2?6^P^82BCaVR6=2
+!i10b 1
+Emem_rom_tb
+Z26 w1676484178
+R1
+R2
+R3
+R4
+Z27 8C:/Users/Gabi/Documents/faculdade/oac/memrv/rom_tb.vhd
+Z28 FC:/Users/Gabi/Documents/faculdade/oac/memrv/rom_tb.vhd
+l0
+L7
+V_S:IfoS<M18VDj`KOI2I81
+R7
+33
+Z29 !s108 1676570777.394000
+Z30 !s90 -reportprogress|300|-work|work|-2008|-explicit|C:/Users/Gabi/Documents/faculdade/oac/memrv/rom_tb.vhd|
+Z31 !s107 C:/Users/Gabi/Documents/faculdade/oac/memrv/rom_tb.vhd|
+R11
+R12
+!s100 K9Ko`k:A?5doMJODz6EiI0
+!i10b 1
+Abehavioral
+R1
+R2
+R3
+DEx4 work 10 mem_rom_tb 0 22 _S:IfoS<M18VDj`KOI2I81
+l41
+L10
+VMa`VjPlfY1ECOSXBUB[CD2
+R7
+33
+R29
+R30
+R31
+R11
+R12
+!s100 JTSVazk6oFClEDKQdSBf73
+!i10b 1
+Emem_rv
+Z32 w1676481029
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L7
+VED;4iXI1lOK70W[eVzlPZ0
+R7
+33
+Z33 !s108 1676481230.361000
+R9
+R10
+R11
+R12
+!s100 XbiP`]3>Rk[i?Lh<_fVcj3
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 6 mem_rv 0 22 ED;4iXI1lOK70W[eVzlPZ0
+l35
+L17
+VWmzfK8Z2;<O6E0<X`31FP0
+R7
+33
+R33
+R9
+R10
+R11
+R12
+!s100 GNN;C5I[mAg2NJcYM@3PN0
+!i10b 1
+Emem_rv_tb
+Z34 w1676483904
+R1
+R2
+R3
+R4
+R27
+R28
+l0
+L7
+VWYKzN3<e0mEzeCPMXN5hZ3
+R7
+33
+Z35 !s108 1676483969.108000
+R30
+R31
+R11
+R12
+!s100 ege0h_POe^hTz[JZC2o^E0
+!i10b 1
+Abehavioral
+R1
+R2
+R3
+DEx4 work 9 mem_rv_tb 0 22 WYKzN3<e0mEzeCPMXN5hZ3
+l41
+L10
+VIjUPB;cFL0l8BFGoDMo:80
+R7
+33
+R35
+R30
+R31
+R11
+R12
+!s100 5;1FS6g^XQ4^U[2KmlEE[0
+!i10b 1

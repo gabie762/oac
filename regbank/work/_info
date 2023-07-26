@@ -1,0 +1,154 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Gabi\Documents\faculdade\oac\memoriasRV
+Emem_rv
+Z0 w1676316574
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Gabi\Documents\faculdade\oac\regbank
+Z5 8C:/Users/Gabi/Documents/faculdade/oac/memoriasRV/RAM.vhd
+Z6 FC:/Users/Gabi/Documents/faculdade/oac/memoriasRV/RAM.vhd
+l0
+L5
+V2NRL5DNR5TO]fSOmb;U:V0
+!s100 =B8>Heh>dX4ClCa@GKW=F2
+Z7 OV;C;10.1d;51
+32
+!i10b 1
+Z8 !s108 1676400891.980000
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/Gabi/Documents/faculdade/oac/memoriasRV/RAM.vhd|
+Z10 !s107 C:/Users/Gabi/Documents/faculdade/oac/memoriasRV/RAM.vhd|
+Z11 o-work work -O0
+Z12 tExplicit 1
+Artl
+R1
+R2
+R3
+Z13 DEx4 work 6 mem_rv 0 22 2NRL5DNR5TO]fSOmb;U:V0
+l19
+L14
+Z14 V3d:8B3:[9zz:zLCI5^n@33
+Z15 !s100 ?C82n4<YWDHX8EAHoM;>P0
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Etest_xregs
+w1676388020
+R1
+R2
+R3
+R4
+Z16 8C:/Users/Gabi/Documents/faculdade/oac/regbank/xRegs_tb.vhd
+Z17 FC:/Users/Gabi/Documents/faculdade/oac/regbank/xRegs_tb.vhd
+l0
+L5
+VT^d=E66Y8F?eJYQGmU1Ub3
+R7
+32
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Gabi/Documents/faculdade/oac/regbank/xRegs_tb.vhd|
+Z19 o-work work -2002 -explicit -O0
+R12
+Z20 !s107 C:/Users/Gabi/Documents/faculdade/oac/regbank/xRegs_tb.vhd|
+!s100 >oRQ;ce5@lJd3gnU0H1l50
+!i10b 1
+!s108 1676388036.225000
+Exregs
+Z21 w1676397079
+R1
+R2
+R3
+R4
+Z22 8C:/Users/Gabi/Documents/faculdade/oac/regbank/xRegs.vhd
+Z23 FC:/Users/Gabi/Documents/faculdade/oac/regbank/xRegs.vhd
+l0
+L5
+VT`2EX5LIA=^>6?O[^l@?V2
+R7
+33
+Z24 !s108 1676397080.520000
+Z25 !s90 -reportprogress|300|-work|work|-2008|-explicit|C:/Users/Gabi/Documents/faculdade/oac/regbank/xRegs.vhd|
+Z26 !s107 C:/Users/Gabi/Documents/faculdade/oac/regbank/xRegs.vhd|
+Z27 o-work work -2008 -explicit -O0
+R12
+!s100 Z<aU?@jjV@WdX@7V0@Km:0
+!i10b 1
+Abehaviour
+R1
+R2
+R3
+DEx4 work 5 xregs 0 22 T`2EX5LIA=^>6?O[^l@?V2
+l24
+L16
+VYY>`LCjjhS3Z^HS2S;ERO3
+R7
+33
+R24
+R25
+R26
+R27
+R12
+!s100 4XUlULj0ZzdVQd5W:R]WV1
+!i10b 1
+Exregs_tb
+Z28 w1676396439
+R1
+R2
+R3
+R4
+R16
+R17
+l0
+L5
+V:UoC94OSG@2MfMZ9YLO;I1
+R7
+32
+Z29 !s108 1676396441.625000
+R18
+R20
+R19
+R12
+!s100 kC5>GKk7G:b3J?^=YEJ]d0
+!i10b 1
+Abehavior
+R1
+R2
+R3
+DEx4 work 8 xregs_tb 0 22 :UoC94OSG@2MfMZ9YLO;I1
+l30
+L8
+VNfk0=kF1C@8KjZ8NZ=Y6P2
+R7
+32
+R29
+R18
+R20
+R19
+R12
+!s100 m:V:6=M@?4Ff5RBNZ]U5b2
+!i10b 1
+Abehaviour
+R1
+R2
+R3
+DEx4 work 8 xregs_tb 0 22 :97:E_8m<6Y3@TQU]MEW>1
+l23
+L8
+VPcI9n=l_DD]EMHHKWz`Ee0
+R7
+32
+R18
+R20
+R19
+R12
+w1676395815
+!s108 1676387188.150000
+!s100 Lh8PQ697[62HU;@hXIj:n1
+!i10b 1

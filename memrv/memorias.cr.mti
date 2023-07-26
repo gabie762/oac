@@ -1,0 +1,37 @@
+C:/Users/Gabi/Documents/faculdade/oac/memrv/ram.vhd {1 {vcom -work work -2008 -explicit C:/Users/Gabi/Documents/faculdade/oac/memrv/ram.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem_ram
+-- Compiling architecture RTL of mem_ram
+
+} {} {}} C:/Users/Gabi/Documents/faculdade/oac/memrv/ram_tb.vhd {1 {vcom -work work -2008 -explicit C:/Users/Gabi/Documents/faculdade/oac/memrv/ram_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem_ram_tb
+-- Compiling architecture Behavioral of mem_ram_tb
+
+} {} {}} C:/Users/Gabi/Documents/faculdade/oac/memrv/rom.vhd {1 {vcom -work work -2008 -explicit C:/Users/Gabi/Documents/faculdade/oac/memrv/rom.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem_rom
+-- Compiling architecture RTL of mem_rom
+
+} {} {}} C:/Users/Gabi/Documents/faculdade/oac/memrv/rom_tb.vhd {1 {vcom -work work -2008 -explicit C:/Users/Gabi/Documents/faculdade/oac/memrv/rom_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem_rom_tb
+-- Compiling architecture Behavioral of mem_rom_tb
+
+} {} {}}

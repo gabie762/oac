@@ -1,0 +1,63 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all; 
+library std;
+use std.textio.all;
+
+entity mem_ram is
+ port (
+    clock: in std_logic;
+    we: in std_logic;
+    address: in std_logic_vector(7 downto 0);
+    datain: in std_logic_vector(31 downto 0);
+    dataout: out std_logic_vector(31 downto 0)
+    );
+end mem_ram;
+
+architecture RTL of mem_ram is
+  
+    type ram_type is array (0 to (2**address'length)-1) of std_logic_vector(datain'range);
+    impure function read_ram_data return ram_type is
+    file ram_file: text open read_mode is "ram_data.txt";
+    variable txt_line: line;
+    variable ram_data: ram_type;
+      begin
+        for i in 0 to 255 loop
+          readline(ram_file, txt_line);
+          hread(txt_line, ram_data(i));
+        end loop;
+        return ram_data;
+    end function;
+    
+    procedure write_ram_data(ram_data : ram_type) is
+    file ram_file: text open write_mode is "ram_data_out.txt";
+    variable txt_line: line;
+    begin
+        for i in 0 to 255 loop
+          write(txt_line, ram_data(i));
+          writeline(ram_file, txt_line);
+        end loop;
+    end procedure;
+    
+    signal mem: ram_type := read_ram_data;
+    signal read_address : std_logic_vector(address'range);
+    -- signal mem_result: ram_type;
+
+begin
+  Write: process(clock)
+	 begin
+	   if(rising_edge(clock)) then
+        if (we = '1') then
+          mem(to_integer(unsigned(address))) <= datain;
+        end if;
+    end if;
+  end process;
+  
+  Read: process(address)
+  begin
+    read_address <= address;
+    dataout <= mem(to_integer(unsigned(read_address)));
+  end process;
+  
+  write_ram_data(mem);
+end RTL;

@@ -1,0 +1,45 @@
+{C:/Users/Gabi/Documents/faculdade/oac/riscv processador pipeline/design.vhd} {1 {vcom -work work -2008 -explicit {C:/Users/Gabi/Documents/faculdade/oac/riscv processador pipeline/design.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Add
+-- Compiling architecture behavior of Add
+-- Compiling entity MUX
+-- Compiling architecture behaviour of MUX
+-- Compiling entity PC
+-- Compiling architecture behavior of PC
+-- Compiling entity mem_rom
+-- Compiling architecture RTL of mem_rom
+-- Compiling entity regIFID
+-- Compiling architecture behavior of regIFID
+-- Compiling entity control
+-- Compiling architecture behavior of control
+-- Compiling entity XREGS
+-- Compiling architecture behavior of XREGS
+-- Compiling entity genImm32
+-- Compiling architecture df of genImm32
+-- Compiling entity regIDEX
+-- Compiling architecture behavior of regIDEX
+-- Compiling entity ALU_control
+-- Compiling architecture behavior of ALU_control
+-- Compiling entity ula_RV
+-- Compiling architecture behavior of ula_RV
+-- Compiling entity regEXMEM
+-- Compiling architecture behavior of regEXMEM
+-- Compiling entity mem_ram
+-- Compiling architecture RTL of mem_ram
+-- Compiling entity regMEMWB
+-- Compiling architecture behavior of regMEMWB
+
+} {} {}} {C:/Users/Gabi/Documents/faculdade/oac/riscv processador pipeline/testbench.vhd} {1 {vcom -work work -2008 -explicit {C:/Users/Gabi/Documents/faculdade/oac/riscv processador pipeline/testbench.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity testbench
+-- Compiling architecture Behavioral of testbench
+
+} {} {}}

@@ -1,0 +1,117 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity xREGS_tb is
+end entity;
+
+architecture behavior of xREGS_tb is
+
+  constant WSIZE : natural := 32;
+  
+  signal clk, we, rst : std_logic;
+  signal rs1, rs2, rd : std_logic_vector(4 downto 0);
+  signal data_in : std_logic_vector(WSIZE-1 downto 0);
+  signal data_out1, data_out2 : std_logic_vector(WSIZE-1 downto 0);
+
+  -- Instantiate the unit under test
+  component xREGS is
+    generic (WSIZE : natural := 32);
+    port (
+      clk, we, rst : in std_logic;
+      rs1, rs2, rd : in std_logic_vector(4 downto 0);
+      data_in : in std_logic_vector(WSIZE-1 downto 0);
+      data_out1, data_out2 : out std_logic_vector(WSIZE-1 downto 0)
+    );
+  end component;
+  
+  signal done : boolean := false;
+
+begin
+
+  -- Instantiate the unit under test
+  UUT: xREGS generic map (WSIZE => WSIZE)
+    port map (
+      clk => clk,
+      we => we,
+      rst => rst,
+      rs1 => rs1,
+      rs2 => rs2,
+      rd => rd,
+      data_in => data_in,
+      data_out1 => data_out1,
+      data_out2 => data_out2
+    );
+
+  -- Clock generation process
+  process
+  begin
+    clk <= '0';
+    wait for 5 ns;
+    clk <= '1';
+    wait for 5 ns;
+  end process;
+
+  -- Stimulus process
+  process
+  begin
+
+    -- Reset
+    rst <= '1';
+    we <= '0';
+    rs1 <= (others => '0');
+    rs2 <= (others => '0');
+    rd <= (others => '0');
+    data_in <= (others => '0');
+    wait for 10 ns;
+    rst <= '0';
+
+    -- Write to register
+    we <= '1';
+    rd <= "00001";
+    data_in <= x"12345678";
+    wait for 10 ns;
+    we <= '0';
+
+    -- Read from register
+    rs1 <= "00001";
+    wait for 10 ns;
+
+    -- Write to register again
+    we <= '1';
+    rd <= "00010";
+    data_in <= x"87654321";
+    wait for 10 ns;
+    we <= '0';
+
+    -- Read from both registers
+    rs1 <= "00001";
+    rs2 <= "00010";
+    wait for 10 ns;
+
+    done <= true;
+    wait;
+
+  end process;
+
+  -- Check the results
+  process
+  begin
+
+    wait until done;
+
+    assert data_out1 = x"12345678"
+      --report "Test failed: data_out1 is " & to_string(data_out1) & " instead of " & to_string(x"12345678"))
+      severity error;
+      
+    assert data_out2 = x"87654321"
+      --report "Test failed: data_out2 is " & to_string(data_out2) & " instead of " & to_string(x"87654321"))
+      severity error;
+
+    report "Test passed" severity note;
+
+    wait;
+
+  end process;
+
+end behavior;
